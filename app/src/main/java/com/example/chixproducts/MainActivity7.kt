@@ -23,7 +23,7 @@ class MainActivity7 : AppCompatActivity() {
                 val intent= Intent(this,MainActivity6::class.java)
                 startActivity(intent)
             }
-            binding.textView30.setOnClickListener {
+            binding.imageView30.setOnClickListener {
                 val intent= Intent(this,MainActivity8::class.java)
                 startActivity(intent)
             }

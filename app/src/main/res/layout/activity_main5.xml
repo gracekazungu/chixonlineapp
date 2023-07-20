@@ -36,12 +36,11 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="match_parent"
+                android:layout_margin="16dp"
                 app:cardCornerRadius="4dp"
-                android:layout_margin="8dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -62,8 +61,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 200/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView25" />
 
@@ -74,8 +73,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Quantity: 500ml"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
@@ -93,12 +92,11 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 app:cardCornerRadius="4dp"
-                android:layout_margin="8dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -119,8 +117,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 100/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
@@ -131,8 +129,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Quantity: 200ml"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
@@ -150,16 +148,12 @@
             </androidx.cardview.widget.CardView>
 
 
-
-
-
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 app:cardCornerRadius="4dp"
-                android:layout_margin="8dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -180,8 +174,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 200/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
@@ -192,8 +186,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Quantity: 400ml"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -212,12 +206,11 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 app:cardCornerRadius="4dp"
-                android:layout_margin="8dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -238,8 +231,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 100/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView28" />
 
@@ -250,8 +243,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Quantity: 200 ml"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -269,12 +262,11 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 app:cardCornerRadius="4dp"
-                android:layout_margin="8dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -295,8 +287,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 100/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView29" />
 
@@ -307,8 +299,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Quantity: 200 ml"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView35" />
 

@@ -20,10 +20,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <ScrollView
         android:id="@+id/ScrollView"
-        android:layout_width="396dp"
+        android:layout_width="370dp"
         android:layout_height="600dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="16dp"
@@ -31,76 +30,74 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
 
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:cardCornerRadius="4dp"
-        android:layout_margin="8dp"
-        app:cardElevation="8dp">
-
-
-
-        <ImageView
-            android:id="@+id/imageView25"
-            android:layout_width="135dp"
-            android:layout_height="165dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ScrollView"
-            app:srcCompat="@drawable/cup" />
-
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="145dp"
-            android:text="Price: 300/="
-            android:textSize="10sp"
-            android:textColor="@color/design_default_color_primary_dark"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView25" />
-
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="165dp"
-            android:text="Material: Melamine"
-            android:textSize="10sp"
-            android:textColor="@color/design_default_color_primary_dark"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="180dp"
-            android:text="Add to Cart"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView27"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="410dp" />
-    </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
+                android:layout_width="360sp"
+                android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="8dp">
 
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="135dp"
+                    android:layout_height="165dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ScrollView"
+                    app:srcCompat="@drawable/cup" />
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="145dp"
+                    android:text="Price: 300/="
+                    android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="165dp"
+                    android:text="Material: Melamine"
+                    android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="180dp"
+                    android:text="Add to Cart"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView27"
+                    tools:layout_editor_absoluteX="26dp"
+                    tools:layout_editor_absoluteY="410dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="8dp">
 
 
                 <ImageView
@@ -121,8 +118,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 300/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
@@ -133,8 +130,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Material: Melamine"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
@@ -152,16 +149,12 @@
             </androidx.cardview.widget.CardView>
 
 
-
-
-
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
                 android:layout_margin="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -182,8 +175,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 300/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
@@ -194,8 +187,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Material: Melamine"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -214,12 +207,11 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="360sp"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
                 android:layout_margin="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="8dp">
-
 
 
                 <ImageView
@@ -240,8 +232,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="145dp"
                     android:text="Price: 300/="
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView28" />
 
@@ -252,8 +244,8 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="165dp"
                     android:text="Material: Melamine"
-                    android:textSize="10sp"
                     android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="10sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -302,7 +294,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView30"
         app:layout_constraintStart_toEndOf="@+id/imageView33"
-        app:srcCompat="@drawable/baseline_navigate_before_24" />
+        app:srcCompat="@drawable/yogoo" />
 
     <ImageView
         android:id="@+id/imageView33"

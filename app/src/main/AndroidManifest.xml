@@ -15,6 +15,12 @@
         android:theme="@style/Theme.ChixProducts"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity9"
             android:exported="false" />
         <activity
@@ -31,9 +37,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity4"
-            android:exported="false"/>
-<!--            android:label="@string/title_activity_main4"-->
-<!--            android:theme="@style/Theme.ChixProducts" />-->
+            android:exported="false" /> <!-- android:label="@string/title_activity_main4" -->
+        <!-- android:theme="@style/Theme.ChixProducts" /> -->
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
